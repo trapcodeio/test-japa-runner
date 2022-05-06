@@ -1,0 +1,20 @@
+{
+  "name": "test-japa",
+  "version": "1.0.0",
+  "description": "Test japa.dev",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node -r ts-node/register/transpile-only bin/test.ts",
+    "test-dev": "nodemon -r ts-node/register/transpile-only bin/test.ts"
+  },
+  "devDependencies": {
+    "@japa/api-client": "^1.2.0",
+    "@japa/assert": "^1.3.4",
+    "@japa/run-failed-tests": "^1.0.7",
+    "@japa/runner": "^2.0.7",
+    "@japa/spec-reporter": "^1.1.12",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
